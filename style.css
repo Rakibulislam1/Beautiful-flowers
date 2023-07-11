@@ -186,7 +186,8 @@ header>section {
     font-weight: 800;
 }
 
-.hot_deal_span {
+.hot_deal_span,
+.footer_span {
     color: #E55473;
 }
 
@@ -290,3 +291,37 @@ input[type=email] {
 }
 
 /* email section start */
+
+/* footer section start */
+.footer_section {
+    height: 370px;
+    background: #111010;
+    text-align: center;
+}
+
+.footer_text {
+    padding-top: 100px;
+}
+
+.footer_heading {
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.footer_description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px auto;
+    width: 600px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+/* footer section end */
