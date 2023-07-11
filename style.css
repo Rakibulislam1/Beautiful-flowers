@@ -152,13 +152,13 @@ header>section {
 .optional_container {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin: 0 150px 150px 100px;
+    margin: 0 150px 150px 150px;
     display: flex;
+    height: 300px;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    padding: 80px 100px;
-    gap: 30px;
+    text-align: center;
 }
 
 .optional_description {
@@ -168,6 +168,8 @@ header>section {
 }
 
 /* optional section start */
+
+/* hot deal section start */
 .hot_deal_container {
     display: flex;
     justify-content: space-around;
@@ -201,3 +203,34 @@ header>section {
     width: 600px;
 }
 
+/* hot deal section end */
+.instagram_text {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.instagram_heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram_description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px auto;
+    width: 600px;
+}
+
+.instagram_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.instagram_img {
+    width: 250px;
+}
