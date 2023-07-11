@@ -11,13 +11,17 @@ body {
 /* google font end*/
 
 /* primary button start */
-.btn_primary {
+.btn_primary{
     color: #fff;
     padding: 20px 40px;
     border-radius: 8px;
     background: #E55473;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+}
+.btn_primary:hover{
+    background-color: #cf5872;
 }
 
 /* primary button end */
@@ -292,6 +296,76 @@ input[type=email] {
 
 /* email section start */
 
+/* find gift container start */
+.find_gift_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F4F4F4;
+    margin: 150px 150px ;
+    padding: 70px 50px;
+    border-radius: 8px;
+}
+
+.find_gift_text{
+    font-size: 25px;
+}
+
+.find_gift_input_field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.custom_select > select{
+    padding: 10px 30px;
+    background: #E55473;
+    border: none;
+    color: #fff;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input_area input[type="text"]{
+    background: #E55473;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.input_area input::placeholder{
+    color: #fff;
+}
+
+.find_gift_heading{
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.input_heading, .custom_select_heading{
+    color: #272727;
+}
+
+.gift_btn{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background: #E55473;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gift_btn:hover{
+    background-color: #cf5872;
+}
+/* find gift container start */
+
 /* footer section start */
 .footer_section {
     height: 370px;
@@ -325,3 +399,4 @@ input[type=email] {
     margin-top: 30px;
 }
 /* footer section end */
+
