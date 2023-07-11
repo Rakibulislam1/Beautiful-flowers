@@ -204,6 +204,7 @@ header>section {
 }
 
 /* hot deal section end */
+/* instagram section start */
 .instagram_text {
     text-align: center;
     margin: 100px 0 50px 0;
@@ -234,3 +235,58 @@ header>section {
 .instagram_img {
     width: 250px;
 }
+
+/* instagram section end */
+
+/* email section start */
+.email_container {
+    background: url('./asset/Rectangle 9.png');
+    margin: 100px 150px;
+    height: 370px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.email_title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.email_description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email_heading {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.email_input {
+    text-align: center;
+}
+
+.email_input input {
+    width: 600px;
+    margin: 30px 20px;
+
+}
+
+input[type=email] {
+    padding: 25px 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 20px 30px;
+}
+
+/* email section start */
